@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SantaElena</string>
+    <string name="SantaElena">Santa Elena Antioquia</string>
+    <string name="mensaje">Sports, nature, breathing fresh air and more, 40 minutes from Medellin city, </string>
+    <string name="inicio">Home</string>
+    <string name="hoteles">Hotels</string>
+    <string name="bares">Bars</string>
+    <string name="turisticos">Tourist Activities</string>
+    <string name="acerca">About...</string>
+    <string name="demo">Demographic Information</string>
+    <string name="tiMagica">MONTAÑA MÁGICA</string>
+    <string name="tMagica">Montaña Magica is an integral farm that provides lodging, spa, restaurant
+        and environmental education services. Our farming, handmade, eating, teaching and housing
+        products are based on permaculture and sustainable development principles\nWeb Site:
+        www.spalamontanamagica.com \nContact:(57+4) 566 9241 \nVereda Piedra Gorda</string>
+    <string name="tiMahuampa">CASA DE MONTAÑA MAHUAMPA</string>
+    <string name="tMahuampa">Over the high montains that is divided San Nicolas’ Valley and Aburra’s
+        Valley, the magic, waving meseta of Santa Elena rises and above impressive San Nicolas  is
+        The Mahuampa hostal, place where is possible to see one of more beautiful Antioquia west
+        views. Such as Rionegro, San Antonio de Pereira, Marinilla, Santuario, parte de Llano
+        grande. \n\nContact: (+57) 311 396 62 94 - \n(57+4) 53819 27\nVereda San Ignacio sector Las Brisas</string>
+    <string name="tiPpiedasblancas">POSADA PIDRAS BLANCAS</string>
+    <string name="tPpidrasbancas">he Lodge Piedras Blancas has for about seven blocks of land, ideal
+        to hiking, camping and picnic; where you can enjoy completely  by nature and little animals,
+        shepherding, vegetable garden, fruit and wood trees, and native people. \n\n Contact:
+        (+57) 312 417 7245 \nVereda Piedras Blancas. Sector El Tambo</string>
+    <string name="tiMonasterio">EL MONASTERIO</string>
+    <string name="tMonasterio">Thematic coffee, one of a kind. Natural tendency, author of kitchen
+        oriented to patisserie. Rustic pizza is our specialty. This project is oriented to human
+        wellness. Special birthdays and romantic dinners. In our Terrasana Farm has psychophysical
+        sessions to meet again armory and equilibrium. Campfire, zoo-therapy , workshops, green
+        days , mountain retreat. \n\nTeléfono:(57+4) 381089; (+57) 300-665-2553; (+57) 312 791 8163
+        \n Main Road near central park</string>
+    <string name="tiPlacebo">Placebo Coffee BAR</string>
+    <string name="tPacebo">Good atmosphere, beautiful view, coffee, friends, place to be in the
+        afternoons, grill, Bossa, boleros, Son Cuba, Rock, salsa, blues, tango music, art. Live music
+        \n\nContact:(+57)315 521 4870 -(+57)305 225 8212 - (57+4) 538 0272 \nVereda El Placer</string>
+    <string name="tiCiruela">Panaderia Ciruela</string>
+    <string name="tCiruela">Ciruela Bakery is a warm and welcoming place where you find the richest
+        aromas and the most delicious flavors of our fresh products. We enjoy your company in the
+        making of the famous chocolate, seda and almond breads, blue cheese croissants, baguettes,
+        cinnamon screws, pies, tarts, desserts and much more. \n\nTeléfono:
+        (57+4)538 0437 - (57)320 775 8520 \nVereda El Plan, sector El Chispero</string>
+    <string name="tiSilletas">Noche de Silletas</string>
+    <string name="tSilletas">It is party time. A party is set up in Santa Elena the night before the
+        Silleteros Parade. Thousands of tourists go about from vereda to vereda visiting the
+        silleteras farms, to have a close look at the assembling of the silletas and to talk
+        with the peasants about their culture and tradition.</string>
+    <string name="tiAventura">Aventuras</string>
+    <string name="tAventura">In Santa Elena is  lived the experience of:\n\nZip line: Flyover trees
+        or a dam, feel the adrenaline and enjoy the landscape that you will discover on the tour.
+        \n\nCycle tourism:The topography of the territory provides a perfect setting for bike touring,
+        which offers routes of different levels, ranging from those appropriate for family excursions
+        to specialized circuits for athletes. \n\nPaths and Trails: To walk through, catch the fresh
+        air and contemplate the green landscape, this territory offers a series of paths amid the forest,
+        suited for the enjoyment of birds, orchids, fauna and flora and also features several drivable
+        circuits interconnecting different veredas and provided with somesightseeing interest.
+        \n\nCanyoneering: Feel the adrenaline as you go down the emblematic waterfall of Santa Elena
+        and other locations in the foggy forests.
+    </string>
+    <string name="tiArvi">Parque Arví</string>
+    <string name="tArvi">It is an ecotourism park located  in the corregimiento Santa Elena, east of
+        Medellín, created for the enjoyment of the whole local, national and international community,
+        where they can enjoy trails, picnic areas, recreational parks as Comfama Arvi and Piedras
+        Blancas, Arvi Market and travel on Metro Cable. It has 1761 hectares spread through the
+        veredas Piedras Blancas, Mazo, Piedra Gorda and Barro Blanco, with plenty of foggy forests,
+        one of the most important pieces of natural wealth of the territory, as it preserves the
+        quality of the waters running down to the Valleys of Aburra and San Nicolas. Moreover, it
+        constitutes the habitat for flowers, mosses, mushrooms, sarros, frogs, birds, butterflies and
+        many other species of vital importance for the preservation of the forest.</string>
+    <string name="tDemo">
+According to the datas provided by the Statistical Yearbook of Medellín Santa Elena 2005,2 it has a
+        population of about 10,898 inhabitants. It is the largest district of Medellin and has a
+        density of 154 hab. By 2010 the population of over 12,000 inhabitants</string>
+    <string name="tveredas1">The township has 11 Veredas</string>
+    <string name="tveredas2">El Llano\n El Plan\n Media Luna\n Piedra Gorda</string>
+    <string name="tveredas3">El Placer\nBarro Blanco\n La Palma\n Piedras Blancas-Matazano</string>
+    <string name="tveredas4">Mazo\n El Cerro\n Santa Elena Sector Central</string>
+    <string name="tAcerca">Sara Marcela Pavas Madrid\n c.c 1152687985\n sara.pavas@udea.edu.co\n Estudiante\n
+    Programación para dispositivos móviles\n Ingeniería de Telecomunicaciones\n Universidad de Antioquia\n 2016</string>
+
+</resources>

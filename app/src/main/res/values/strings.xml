@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">SantaElena</string>
+    <string name="SantaElena">Santa Elena Antioquia</string>
+    <string name="mensaje">Deportes, natulareza, aire fresco y más, a sólo 40 minutos de Medellín</string>
+    <string name="inicio">Inicio</string>
+    <string name="hoteles">Hoteles</string>
+    <string name="bares">Bares</string>
+    <string name="turisticos">Actividades Turísticas</string>
+    <string name="acerca">Acerca de...</string>
+    <string name="demo">Información demografíca</string>
+    <string name="tiMagica">MONTAÑA MÁGICA</string>
+    <string name="tMagica">La Montaña Mágica es una granja integral que presta servicios de
+        hospedaje, spa,restaurante y educación ambiental. Nuestros productos agropecuarios,
+        hoteleros, alimenticios,pedagógicos y artesanales están basados en los principios
+        de la permacultura  y el desarrollo sostenible.\n
+        \nSitio Web: www.spalamontanamagica.com \nTeléfono:(57+4) 566 9241 \nVereda Piedra Gorda</string>
+    <string name="tiMahuampa">CASA DE MONTAÑA MAHUAMPA</string>
+    <string name="tMahuampa">Sobre las altas montañas que dividen el Valle de San Nicolás y el
+        Valle del Aburrá, se levanta la mágica ondulante meseta de Santa Elena y sobre el paisaje
+        del imponente San Nicolás, está el Hostal Mahuampa, lugar donde se divisa uno de los mas
+        hermosos paisajes del oriente antioqueño destacándose, Río Negro, San Antonio de Pereira,
+        Marinilla, Santuario, parte de Llano grande. \n\nTeléfono:(+57) 311 396 62 94 - \n
+            (57+4) 53819 27\nVereda San Ignacio sector Las Brisas</string>
+    <string name="tiPpiedasblancas">POSADA PIDRAS BLANCAS</string>
+    <string name="tPpidrasbancas">La Posada Piedras Blancas cuenta con más de siete cuadras de
+        terreno, propicio para realizar caminata, CAMPING y PICNIC; donde podrá disfrutar
+        ampliamente del esparcimiento que brinda la Naturaleza  y encontrará especies menores de
+        animales, silbo pastoreo, huertas, árboles maderables, frutales y nativos de la región.
+        \n\nTeléfono:(+57) 312 417 7245 \nVereda Piedras Blancas. Sector El Tambo</string>
+    <string name="tiMonasterio">EL MONASTERIO</string>
+    <string name="tMonasterio">Café Temático, único en su género. Tendencia natural, cocina de autor
+        orientada a la pastizzería. La pizza rústica es nuestra bandera. Proyecto orientado al
+        bien-estar integral del ser humano. Cumpleaños con-sentido, cenas románticas. En nuestra
+        Granja TERRASANA sesiones psico-físicas para el re-encuentro del equilibrio y la armonía.
+        Fogatas, zooterapia, talleres, días verdes, refugio en la montaña. \n\nTeléfono:(57+4) 381089;
+        (+57) 300-665-2553; (+57) 312 791 8163 \nVía principal al pie del parque central</string>
+    <string name="tiPlacebo">Placebo Coffee BAR</string>
+    <string name="tPacebo">Buen ambiente, excelente vista, café, amigos,Tardeadero, Parrilla ,
+        Bossa,Boleros , Son Cuba, Rock, Arte, salsa, blues, tango y Más .Musica en vivo.\n\nTeléfono:
+        (+57)315 521 4870 -(+57)305 225 8212 - (57+4) 538 0272 \nVereda El Placer</string>
+    <string name="tiCiruela">Panaderia Ciruela</string>
+    <string name="tCiruela">Panadería Ciruela es un cálido y acogedor lugar donde encuentras los más
+        ricos aromas y deliciosos sabores de nuestros productos frescos. Disfrutamos de tu compañía
+        en la elaboración de los famosos panes chocolate, seda, croissants de queso azul, almendras,
+        pan francés, tornillos de canela, pasteles, tartas, postres y mucho más. \n\nTeléfono:
+        (57+4)538 0437 - (57)320 775 8520 \nVereda El Plan, sector El Chispero</string>
+    <string name="tiSilletas">Noche de Silletas</string>
+    <string name="tSilletas">En la noche de la víspera al Desfile de Silleteros se vive una fiesta en Santa
+        Elena; miles de turistas van de vereda en vereda visitando las fincas silleteras, para
+        apreciar de cerca la elaboración de las silletas y conversar con los campesinos sobre su
+        cultura y tradición.</string>
+    <string name="tiAventura">Aventuras</string>
+    <string name="tAventura">Vive en Santa Elena la experiencia de:\n\n      Canopy: Vuele a través
+        de los árboles o una represa, sienta la adrenalina y disfrute del paisaje que puede observar e
+        n los recorridos. \n\nCiclo Turismo:     La topografía del territorio es el escenario perfecto
+        para el cicloturismo, el cual ofrece rutas de diferentes niveles, desde paseos familiares
+        hasta circuitos especializados para deportistas. \n\nSenderismo:   Santa Elena cuenta con una
+        serie de senderos entre el bosque, ideales para el avistamiento de aves, orquídeas, fauna,
+        flora y varios circuitos carreteables interveredales de interés paisajístico. \n\nTorrentismo:
+        Sienta la adrenalina descendiendo por la emblemática Cascada de Santa Elena y por otros
+        escenarios que se encuentran en estos bosques de niebla.
+    </string>
+    <string name="tiArvi">Parque Arví</string>
+    <string name="tArvi">Parque Arví es un parque ecoturístico que cuenta con  senderos ecológicos,
+        caminos indígenas, zonas de pic nic y camping; también están allí, los parques recreativos
+        Comfama Arví y el Parque Ecológico Piedras Blancas. Este parque cuenta con 1.761 hectáreas, tiene
+        abundantes bosques de niebla, una de las riquezas naturales más importantes para el territorio
+        porque conserva la calidad de las aguas que van a parar a los valles de Aburrá y San Nicolás.
+        Además, es el hábitat de flores, musgos, hongos, sarros, ranas, aves, mariposas y muchas otras
+        especies que son de vital importancia para la preservación del  bosque.</string>
+    <string name="tDemo">De acuerdo con las cifras presentadas por el Anuario Estadístico de Medellín
+        de 2005, Santa Elena cuenta con una población cercana a los 10,898 habitantes. Es el
+        corregimiento más grande de Medellín y cuenta con una densidad de 154 hab./km². Para el 2010
+        la población supera los 12,000 habitantes.</string>
+    <string name="tveredas1">El Corregimiento se compone de 11 Veredas</string>
+    <string name="tveredas2">El Llano\n El Plan\n Media Luna\n Piedra Gorda</string>
+    <string name="tveredas3">El Placer\nBarro Blanco\n La Palma\n Piedras Blancas-Matazano</string>
+    <string name="tveredas4">Mazo\n El Cerro\n Santa Elena Sector Central</string>
+    <string name="tAcerca">Sara Marcela Pavas Madrid\n c.c 1152687985\n sara.pavas@udea.edu.co\n Estudiante\n
+    Programación para dispositivos móviles\n Ingeniería de Telecomunicaciones\n Universidad de Antioquia\n 2016</string>
+
+</resources>
