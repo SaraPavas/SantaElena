@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+             android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+             android:paddingTop="@dimen/activity_vertical_margin"
+             android:background="@color/green"
+             tools:context="com.example.sarapavas.santaelena.InicioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        style="@style/myLinearLayoutStyle">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/iCable"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:src="@drawable/cable"
+                android:layout_alignParentTop="true" />
+            <ImageView
+                android:id="@+id/iSilletero"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/silletero"
+                android:layout_toRightOf="@+id/iCable"/>
+            <ImageView
+                android:id="@+id/iEscalada"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/escalada"
+                android:layout_toRightOf="@+id/iSilletero"/>
+
+            <TextView
+                android:id="@+id/tSantaElena"
+                android:layout_below="@id/iSilletero"
+                android:text="@string/SantaElena"
+                style="@style/myTextStyle.grande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/iBici"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/bici2"
+                android:layout_below="@+id/tSantaElena"/>
+
+            <ImageView
+                android:id="@+id/iVioletas"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:src="@drawable/violetas"
+                android:layout_below="@+id/tSantaElena"
+                android:layout_toRightOf="@+id/iBici"/>
+            <ImageView
+                android:id="@+id/iFrutas"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/frutas"
+                android:layout_below="@+id/tSantaElena"
+                android:layout_toRightOf="@+id/iVioletas"/>
+            <TextView
+                android:layout_below="@id/iBici"
+                android:text="@string/mensaje"
+                android:id="@+id/iMensaje"
+                style="@style/myTextStyle.mediano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/iChorizo"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:src="@drawable/chorizo"
+                android:layout_below="@+id/iMensaje"/>
+            <ImageView
+                android:id="@+id/iMagica"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:src="@drawable/magica2"
+                android:layout_below="@+id/iMensaje"
+                android:layout_toRightOf="@+id/iChorizo"/>
+            <ImageView
+                android:id="@+id/iParque"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:src="@drawable/parque2"
+                android:layout_below="@+id/iMensaje"
+                android:layout_toRightOf="@+id/iMagica"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
