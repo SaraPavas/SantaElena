@@ -79,5 +79,7 @@ According to the datas provided by the Statistical Yearbook of Medellín Santa E
     <string name="tveredas4">Mazo\n El Cerro\n Santa Elena Sector Central</string>
     <string name="tAcerca">Sara Marcela Pavas Madrid\n c.c 1152687985\n sara.pavas@udea.edu.co\n Estudiante\n
     Programación para dispositivos móviles\n Ingeniería de Telecomunicaciones\n Universidad de Antioquia\n 2016</string>
+    <string name="abierto">Open navigation drawer</string>
+    <string name="cerrado">Close navigation drawer</string>
 
 </resources>

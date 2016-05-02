@@ -1,60 +1,106 @@
 package com.example.sarapavas.santaelena;
 
-import android.content.Intent;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 
-public class MainActivity extends AppCompatActivity {
 
+public class MainActivity extends AppCompatActivity{
+
+    private String[] opciones;
+    private ListView listView;
+    private DrawerLayout drawerLayout;
+    private ActionBarDrawerToggle drawerToggle;
+
+    private CharSequence tituloSec;
+    private CharSequence tituloApp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    }
-    @Override
-       public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
+        opciones = new String[] {"Inicio","Hoteles","Bares","Sitios Turisticos","Información Demografica","Acerca de ..."};
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.contenedorPrincipal);
+        listView = (ListView) findViewById(R.id.menuIzq);
+//Swipe tab
+        final PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager());
+
+
+        listView.setAdapter(new ArrayAdapter<String>(getSupportActionBar().
+                getThemedContext(), android.R.layout.simple_list_item_1, opciones));
+        final ActionBar ab = getSupportActionBar();
+        if (ab !=null) {
+            ab.setHomeAsUpIndicator(R.drawable.ic_menu_white_24dp);
+            ab.setDisplayHomeAsUpEnabled(true);
+        }
+        Fragment fragment = new InicioFragment();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().add(R.id.contenedorFragment, fragment).commit();
+
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Fragment fragment = null;
+                switch (position) {
+                    case 0:
+                        fragment = new InicioFragment();
+                        break;
+                    case 1:
+                        fragment = new HotelesFragment();
+                        break;
+                    case 2:
+                        fragment = new BaresFragment();
+                        break;
+                    case 3:
+                        fragment =  new turismoFragment();
+                        break;
+                    case 4:
+                        fragment = new demoFragment();
+                        break;
+                    case 5:
+                        fragment = new acercaFragment();
+                        break;
+                }
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.contenedorFragment, fragment).commit();
+                listView.setItemChecked(position, true);
+                tituloSec = opciones[position];
+                ab.setTitle(tituloSec);
+                drawerLayout.closeDrawer(listView);
+            }
+        });
+
+        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout,
+                R.drawable.ic_menu_white_24dp,R.string.abierto,R.string.cerrado);
+
+        drawerLayout.setDrawerListener(drawerToggle);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        if(id == R.id.mHoteles){
-            Intent ih = new Intent(this, HotelesActivity.class);
-            startActivity(ih);//intent y codigo para identificar la respuesta
-            return true;
+        switch (item.getItemId()){
+            case android.R.id.home:
+                drawerLayout.openDrawer(GravityCompat.START);
+                return true;
         }
-        if(id == R.id.mBares){
-            Intent ib = new Intent(this, BaresActivity.class);
-            startActivity(ib);//intent y codigo para identificar la respuesta
-            return true;
-        }
-        if(id == R.id.mTuristicos){
-            Intent it = new Intent(this, TurismoActivity.class);
-            startActivity(it);//intent y codigo para identificar la respuesta
-            return true;
-        }
-        if(id == R.id.mDemo){
-            Intent ide = new Intent(this, DemoActivity.class);
-            startActivity(ide);//intent y codigo para identificar la respuesta
-            return true;
-        }
-        if(id == R.id.mAcerca){
-            Intent ia = new Intent(this, AcercaActivity.class);
-            startActivity(ia);//intent y codigo para identificar la respuesta
-            return true;
-        }
-
-
         return super.onOptionsItemSelected(item);
     }
 }
+
+
 
 
