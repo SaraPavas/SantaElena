@@ -6,60 +6,80 @@
              tools:context="com.example.sarapavas.santaelena.Hoteles2Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.4"
-                android:orientation="vertical"
-                android:layout_margin="10dp">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.4"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/tiMahuampa"
-                        android:textColor="@color/floralwhite"
-                        android:gravity="center"
-                        android:layout_gravity="end"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/cornflowerblue">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tiMahuampa"
+                                android:textColor="@color/floralwhite"
+                                android:gravity="center"
+                                android:layout_gravity="end"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cornflowerblue">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/mahuampa"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/mahuampa"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_margin="10dp"
+                            android:textColor="@color/black"
+                            style="@style/myTextStyle.pequeño"
+                            android:text="@string/tMahuampa"/>
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@color/white"
-                android:layout_margin="10dp">
-
-                <TextView
-                    android:layout_margin="10dp"
-                    android:textColor="@color/black"
-                    style="@style/myTextStyle.pequeño"
-                    android:text="@string/tMahuampa"/>
+                android:layout_weight="1">
+                <com.google.android.gms.maps.MapView
+                    android:layout_gravity="end"
+                    android:id="@+id/mapbares3"
+                    android:layout_width="350dp"
+                    android:layout_height="300dp"/>
             </LinearLayout>
+
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

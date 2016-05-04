@@ -81,5 +81,6 @@ According to the datas provided by the Statistical Yearbook of Medellín Santa E
     Programación para dispositivos móviles\n Ingeniería de Telecomunicaciones\n Universidad de Antioquia\n 2016</string>
     <string name="abierto">Open navigation drawer</string>
     <string name="cerrado">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
